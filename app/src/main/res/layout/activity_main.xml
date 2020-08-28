@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/출석현황_PBL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#152268"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="출석현황_PBL" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search_name3"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:baselineAligned="true"
+            android:iconifiedByDefault="false"
+            android:orientation="vertical"
+            android:queryHint="학생이름"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/studenttable3"
+            android:layout_width="wrap_content"
+            android:layout_height="246dp"
+            android:headerDividersEnabled="false"/>
+    </LinearLayout>
+
+</LinearLayout>
