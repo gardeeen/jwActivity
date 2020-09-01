@@ -26,32 +26,27 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btn_O"
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/o" />
 
-            />
-
-        <ImageButton
+        <ImageView
             android:id="@+id/btn_A"
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/a" />
 
-            />
-
-        <ImageButton
+        <ImageView
             android:id="@+id/btn_X"
-            android:layout_width="75dp"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/x" />
 
-            />
     </LinearLayout>
 
 </LinearLayout>
